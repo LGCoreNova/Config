@@ -23,7 +23,34 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 10MB
+  security:
+    basic:
+      enabled: false
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  security:
+    enabled: false  # Spring Boot 2.0 이전용
 
 logging:
   level:
     com.kitcha.article: DEBUG  # 원래 INFO였다면 DEBUG로 변경
+
+app:
+  test-message: "Cloud Bus 테스트 - 2025-03-29 15:30"
