@@ -27,6 +27,3 @@ spring:
 logging:
   level:
     com.kitcha.article: DEBUG  # 원래 INFO였다면 DEBUG로 변경
-
-app:
-  test-message: "Cloud Bus 테스트 성공 - 2025-03-29 12:00"
