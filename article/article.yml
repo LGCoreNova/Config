@@ -7,7 +7,11 @@ groq:
 
 eureka:
   instance:
-    prefer-ip-address: true
+    prefer-ip-address: false
+    hostname: ${ARTICLE_HOSTNAME}
+    nonSecurePort: 80
+    nonSecurePortEnabled: true
+    instance-id: ${HOSTNAME}:${spring.application.name}:${server.port}
   client:
     register-with-eureka: true
     fetch-registry: true
