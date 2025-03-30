@@ -11,7 +11,7 @@ eureka:
     hostname: ${ARTICLE_HOSTNAME}
     nonSecurePort: 80
     nonSecurePortEnabled: true
-    instance-id: ${HOSTNAME}:${spring.application.name}:${server.port}
+    instance-id: ${HOSTNAME}:${spring.application.name}:8080
   client:
     register-with-eureka: true
     fetch-registry: true
