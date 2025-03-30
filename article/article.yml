@@ -50,7 +50,7 @@ management:
 
 logging:
   level:
-    com.kitcha.article: DEBUG  # 원래 INFO였다면 DEBUG로 변경
+    com.kitcha.article: DEBUG  # 로그 레벨 설정 (DEBUG로 변경)
 
 app:
-  test-message: "Cloud Bus 테스트 - 2025-03-29 15:30"
+  test-message: "Cloud Bus 테스트 - 2025-03-30 19:47"  # 현재 시간으로 변경
