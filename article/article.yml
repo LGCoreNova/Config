@@ -1,9 +1,9 @@
 naver:
-  client-id: F1hfeY_3SiHYWER4hcFy
-  client-secret: uEw49fcQyu
+  client-id: ${NAVER_CLIENT_ID}
+  client-secret: ${NAVER_CLIENT_SECRET}
 
 groq:
-  api-key: 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
+  api-key: ${GROQ_API_KEY}
 
 eureka:
   instance:
