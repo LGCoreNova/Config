@@ -25,7 +25,7 @@ eureka:
     hostname: alb-kitcha-board-1015991638.us-west-1.elb.amazonaws.com
     non-secure-port: 80
     non-secure-port-enabled: true
-    instance-id: ${HOSTNAME}:${spring.application.name}:8080
+    instanceId: ${HOSTNAME}:${spring.application.name}:8080
   client:
     register-with-eureka: true
     fetch-registry: true
