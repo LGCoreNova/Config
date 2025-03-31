@@ -10,6 +10,15 @@ spring:
     show-sql: true
     database-platform: org.hibernate.dialect.MySQL8Dialect
 
+  cloud:
+    aws:
+      s3:
+        region: ${AWS_REGION}
+        bucket: ${AWS_S3_BUCKET_NAME}
+      credentials:
+        access-key: ${AWS_ACCESSKEY}
+        secret-key: ${AWS_SECRETKEY}
+
 eureka:
   instance:
     prefer-ip-address: false
