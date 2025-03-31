@@ -53,4 +53,4 @@ logging:
     com.kitcha.article: DEBUG  # 로그 레벨 설정 (DEBUG로 변경)
 
 app:
-  test-message: "Cloud Bus 테스트 - 2025-03-30 20:30"
+  test-message: "Cloud Bus 테스트 - 2025-03-30 20:77"
